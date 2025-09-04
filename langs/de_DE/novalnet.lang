@@ -1,0 +1,97 @@
+
+NOVALNET_MODULE_SETUP = Modul-Einrichtung Novalnet
+NovalnetDescription = Dieses Modul ermöglicht Zahlungen durch Kunden über <a href="https://www.novalnet.de/" target="_blank">NOVALNET</a>. Dies kann für eine Zahlung oder eine zahlungsbezogene Aktion zu einem Dolibarr-Objekt (Rechnung & Bestellung) verwendet werden.
+NovalnetAccountParameter = Novalnet API-Konfiguration
+NovalnetLiveEnabled = Novalnet "Test"-Modus aktiviert (sonst Live-Modus)
+NOVALNET_API_SANDBOX = Test-/Sandbox-Modus
+NOVALNET_SANDBOX_MESSAGE = Sie befinden sich derzeit im Novalnet 'Sandbox'-Modus
+NovalnetWebhookParameter = Benachrichtigung / Webhook-URL-Einrichtung
+NOVALNET_PRODUCT_ACTIVATION = Produkt-Aktivierungsschlüssel
+NOVALNET_PAYMENT_KEY = Zahlungszugangsschlüssel
+NOVALNET_TARRIFF = Tarif-ID auswählen
+NOVALNET_PAY_BUTTON = MIT NOVALNET BEZAHLEN
+NOVALNET_PAY_BUTTON_MESSAGE = Alles in einem Zahlungsdienst
+NOVALNET_WEBHOOK_URL = Novalnet Webhook URL
+WEBHOOK_URL = URL
+NOVALNET_TEST_WEBHOOK = Manuelles Testen von Benachrichtigungs-/Webhook-URLs zulassen
+NOVALNET_ONLINE_PAYMENT_SENDEMAIL = E-Mail-Adresse für Benachrichtigungen nach jeder Zahlungsversuch (für Erfolg und Fehler)
+NOVALNET_WEBHOOK_EMAIL = Senden Sie eine E-Mail an
+NOVALNET_PAYMENT_FORM = Zahlungsformular
+NOVALNET_THANK_FOR_PAYMENT_TEXT = Vielen Dank für Ihre Zahlung!
+NOVALNET_ALREADY_PAID_TXT = Betrag bereits bezahlt!
+NOVALNET_SUCCESS_PAYMENT_TEXT = Ihre Zahlung wurde erfolgreich registriert.
+NOVALNET_ERROR_PAYMENT_TEXT = Fehler bei der Zahlung!
+NOVALNET_ERROR_PAYMENT_MSG = Es ist ein Fehler während des Zahlungsprozesses aufgetreten. Bitte versuchen Sie es später erneut.
+NOVALNET_CANCELLED_PAYMENT_TEXT = Zahlung abgebrochen
+NOVALNET_CANCELLED_PAYMENT_MSG = Ihre Zahlungsanforderung wurde abgebrochen.
+NOVALNET_ABANDONED_PAYMENT_TEXT = Zahlung abgebrochen
+NOVALNET_ABANDONED_PAYMENT_DESC = Ihre Zahlungsanforderung wurde abgebrochen.
+NOVALNET_FAILURE_PAYMENT_TEXT = Versuchen Sie es mit einer anderen Zahlungsmethode
+NOVALNET_TRY_AGAIN = Versuchen Sie es erneut
+NOVALNET_DETAILS = Details...
+NOVALNET_ERROR_STATUS = Fehler bei der Zahlungsabwicklung.
+NOVALNET_ONHOLD_STATUS = Zahlung wird noch überprüft
+NOVALNET_FAILURE_PAYMENT = Zahlung fehlgeschlagen, bitte versuchen Sie es später erneut.
+NOVALNET_INVALID_AMOUNT = Ungültiger Betrag
+NOVALNET_INVALID_AMOUNT_DESC = Der Betrag der Zahlungsantwort stimmt nicht mit dem Rechnungsbetrag überein.
+NOVALNET_CREDITOR = Gläubiger
+NOVALNET_THIRD_PARTY = Dritte Partei
+NOVALNET_DESIGNATION = Bezeichnung
+NOVALNET_PAYMENT_ORDER_REF = Bestellzahlung %s
+NOVALNET_AMOUNT = Betrag
+NOVALNET_TO_COMPLETE = Um abzuschließen
+NOVALNET_PAYMENT_CODE = Zahlungs-Code
+NOVALNET_WARNING_BANK = Bankmodul inaktiv oder kein Bankkonto erstellt. Die Novalnet-Zahlung wird nicht im Bankkonto registriert.
+NOVALNET_ERR_RETURNED = Während der Weiterleitung wurden einige Daten geändert. Die Hash-Prüfung ist fehlgeschlagen.
+
+#payment status
+InvoicePending = RechnungAusstehend
+OrderBilled=Auftrag in Rechnung gestellt
+InvoicePaid=Rechnung bezahlt
+PaymentPending = ZahlungAusstehend
+DonationPaid=Spende bezahlt
+PaymentWillBeRecordedForNextPeriod=Die Zahlung wird für den folgenden Zeitraum erfasst.
+
+
+
+
+# Online-Zahlungslinks
+ToOfferALinkForOnlinePaymentOnOrder = URL, um eine %s Online-Zahlungsseite für eine Verkaufsbestellung anzubieten
+ToOfferALinkForOnlinePaymentOnInvoice = URL, um eine %s Online-Zahlungsseite für eine Kundenrechnung anzubieten
+
+
+#comments
+NOVALNET_NOT_HANDLED = Der Ereignistyp %s wird in dieser Version nicht behandelt, wird aber in der nächsten Version behandelt
+NOVALNET_PAYMENT_REMINDER = Die Zahlungserinnerung %s wurde an den Kunden gesendet.
+NOVALNET_COLLECTION_PROCESS = Die Transaktion wurde an das Inkassobüro übergeben. Inkasso-Referenz: %s
+NOVALNET_TRANSACTION_CONFIRM = Die Transaktion wurde am %s bestätigt
+NOVALNET_TRANSACTION_CREDIT = Die Gutschrift für die TID ist erfolgreich eingegangen: %s mit dem Betrag %s am %s. Bitte entnehmen Sie die TID den Einzelheiten der Bestellung bei BEZAHLT in unserem Novalnet Admin-Portal: %s
+NOVALNET_TRANSACTION_UPDATE = Transaktion erfolgreich aktualisiert für die TID: %s mit dem Betrag %s am %s
+NOVALNET_PENDING_TO_ONHOLD = Der Transaktionsstatus wurde für die TID von „pending“ auf „on hold“ geändert: %s am %s
+NOVALNET_DUEDATE_TEXT = Bitte überweisen Sie den Betrag von %s bis zum %s auf das folgende Konto
+NOVALNET_CASHPAYMENT_DUEDATE = Ablaufdatum des Belegs: %s
+NOVALNET_NEAR_STORE = Filiale(n) in Ihrer Nähe:
+NOVALNET_PARTNER_REF = Partner Zahlungsreferenz: %s
+NOVALNET_PARTNER_ENTITY = Entität: %s
+NOVALNET_INVALID_REFUND_AMOUNT = Ungültiger Erstattungsbetrag
+NOVALNET_ORDER_AMOUNT_NOT_PAID = Bestellter Betrag nicht bezahlt Erstattung nicht möglich
+NOVALNET_TRANSACTION_REFUND = Die Rückerstattung für die TID %s mit dem Betrag %s wurde veranlasst. Die neue TID : %s
+NOVALNET_ORDER_ALREADY_CANCELLED = Auftrag bereits storniert oder für diese Transaktion geschlossen.
+NOVALNET_ORDER_NOT_BILLED = Der Auftrag wird für diese Transaktion nicht in Rechnung gestellt.
+NOVALNET_ORDER_CANCELLATION_FAILED = Annullierung fehlgeschlagen
+NOVALNET_TRANSACTION_CANCEL = Die Transaktion wurde am %s Uhr storniert
+NOVALNET_TRANSACTION_CANCEL_POSTMSG = Transaktion erfolgreich abgebrochen
+NOVALNET_CREDIT_NOTE_CREATED =  Gutschrift erstellt
+NOVALNET_PAYMENT_CREATED =  Für die Gutschrift erstellte Zahlung
+NOVALNET_BANK_TRNS_CREATED = Bankgeschäft der Zahlung erstellt
+NOVALNET_SETUP_BANK_ACC =  Die Einrichtung des Bankkontos, das im Modul Novalnet verwendet werden soll, wurde nicht vorgenommen. Ihre Zahlung wurde tatsächlich ausgeführt, aber wir haben es versäumt, sie zu erfassen.
+NOVALNET_BANK_TRANS_ADD_WITH_TID = Banktransaktion der Zahlung erstellt für ID => %s mit TID %s
+NOVALNET_PAYMENT_INIT_CREATED = Zahlung erstellt
+NOVALNET_PAYMENT_DONE_WITH_DIFF_CURRENCY = Die Zahlung erfolgte in einer anderen Währung ( %s ) als der erwarteten Währung des Unternehmens ( %s )
+NOVALNET_PAYMENT_SUCCESS_WITH_PENDING = Erfolg mit Zahlungsstatus ausstehend
+NOVALNET_FAILED_TO_CREATE_ORD = Bestellung des Rechnungsformulars konnte nicht erstellt werden  %s
+NOVALNET_INVOICE_ORD_NOT_FOUND = Die bezahlte Rechnung für die Bestellung %s wurde nicht gefunden.
+NOVALNET_CHARGEBACK_PROCESS = Chargeback erfolgreich importiert für die TID: %s Betrag: %s am %s Uhr. TID der Folgebuchung: %s
+NOVALNET_NEXT_MEMBERSHIP_DATE = Die Mitgliedschaft wurde für den aktuellen Zeitraum bezahlt (bis %s)
+PAYMENT_REF_DESC = Bitte verwenden Sie einen der unten angegebenen Verwendungszwecke für die Überweisung. Nur so kann Ihr Geldeingang Ihrer Bestellung zugeordnet werden
+NOVALNET_GUARANTEED_PENDING = Ihre Bestellung wird überprüft. Nach der Bestätigung senden wir Ihnen unsere Bankverbindung, an die Sie bitte den Gesamtbetrag der Bestellung überweisen. Bitte beachten Sie, dass dies bis zu 24 Stunden dauern kann

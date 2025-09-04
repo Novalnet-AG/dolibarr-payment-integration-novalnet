@@ -1,0 +1,11 @@
+*** Changelog ***
+
+= 1.2.0 - 2025.09.02 = 
+* New - Payment integration now supports for Events, Donations, and Memberships modules
+
+= 1.1.0 - 2025.03.31 =
+* New -  Implemented Direct Debit ACH payment
+* Fix - Compatible issue for Dolibarr 21.0.0
+
+= 1.0.0 - 2024.11.25 =
+*  New release: Payment module built with improved seamless customer experience and brand configurations in the Novalnet Merchant Admin Portal to make it easier to preview and customise the checkout page
