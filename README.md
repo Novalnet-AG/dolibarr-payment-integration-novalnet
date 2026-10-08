@@ -2,7 +2,7 @@
 The INTEGRATION payment integration by Novalnet enables secure integration of payments and payment services for all Dolibarr shops. Novalnet payment module for Dolibarr shop helps merchants to automate payment processing from checkout till collection.
 
 ## Integration Requirements for Dolibarr Shop Payment Module
-The module is available for the 19.0 - 22.0.0 versions in the following languages: EN & DE and requires PHP versions 8.0 and higher. 
+The module is available for the 19.0 - 24.0.1 versions in the following languages: EN & DE and requires PHP versions 8.0 and higher. 
 Novalnet merchant account is required for processing all international and local payments in Dolibarr shop. You can get yours here: <a href= "https://www.novalnet.de/kontakt"> https://www.novalnet.de/kontakt/sales </a>
 
 ## Integration Benefits
